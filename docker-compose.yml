@@ -1,0 +1,27 @@
+version: "1.7"
+
+services:
+
+  worker:
+
+    build: .
+
+    environment:
+
+      API_ID: $API_ID
+
+      API_HASH: $API_HASH
+
+      BOT_TOKEN: $BOT_TOKEN
+
+      SUDO_USERS: $SUDO_USERS
+
+      AUTH_CHATS: $AUTH_CHATS
+
+      LOG_GROUP: $LOG_GROUP
+
+      OWNER_ID: $OWNER_ID
+
+      SPOTIPY_CLIENT_SECRET: $SPOTIPY_CLIENT_SECRET
+
+      SPOTIPY_CLIENT_ID: $SPOTIPY_CLIENT_ID
